@@ -46,7 +46,7 @@ export const CapacitySection: React.FC = () => {
                 Chicos y Jóvenes
               </h3>
               <p className="text-zinc-400 text-sm leading-relaxed mb-6">
-                Acceso completo al Casco VR 360°, PlayStation 5, PS4, Nintendo Switch y Piso LED con rotación continua guiada.
+                Acceso completo al Casco VR 360°, PlayStation 5, PS4, Nintendo Switch y Piso Neón con rotación continua guiada.
               </p>
             </div>
 

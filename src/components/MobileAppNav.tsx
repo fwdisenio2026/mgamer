@@ -43,22 +43,23 @@ export const MobileAppNav: React.FC<MobileAppNavProps> = ({ activeTab, onSelectT
           </span>
         </button>
 
-        {/* BOTÓN CENTRAL DESTACADO: RESERVA (Centrado, grande y muy visible) */}
+        {/* BOTÓN CENTRAL DESTACADO: RESERVA (Con tonos azules/violáceos, e ícono con filete blanco) */}
         <div className="-mt-6 flex flex-col items-center">
           <button
             type="button"
             onClick={() => onSelectTab('contacto')}
-            className={`w-14 h-14 rounded-full flex items-center justify-center shadow-[0_0_25px_rgba(168,85,247,0.8),0_4px_15px_rgba(0,0,0,0.8)] border-2 transition-all transform active:scale-95 ${
+            className={`w-14 h-14 rounded-full flex items-center justify-center shadow-[0_0_25px_rgba(168,85,247,0.85),0_4px_15px_rgba(0,0,0,0.8)] border-2 transition-all transform active:scale-95 ${
               activeTab === 'contacto'
-                ? 'bg-gradient-to-tr from-yellow-500 via-amber-400 to-orange-500 border-white text-black scale-105'
-                : 'bg-gradient-to-tr from-purple-600 via-indigo-600 to-pink-500 border-purple-300 text-white hover:scale-105'
+                ? 'bg-gradient-to-tr from-cyan-400 via-purple-500 to-indigo-600 border-white text-white scale-105'
+                : 'bg-gradient-to-tr from-cyan-500 via-blue-600 to-purple-600 border-purple-300 text-white hover:scale-105'
             }`}
             aria-label="Reservar turno"
           >
-            <Calendar className="w-7 h-7 stroke-[2.5]" />
+            {/* Ícono blanco puro delineado */}
+            <Calendar className="w-7 h-7 stroke-[2.5] text-white" />
           </button>
           <span className={`text-[10px] font-gamer font-black uppercase tracking-wider mt-1 ${
-            activeTab === 'contacto' ? 'text-yellow-400' : 'text-purple-300'
+            activeTab === 'contacto' ? 'text-cyan-400' : 'text-purple-300'
           }`}>
             RESERVA
           </span>

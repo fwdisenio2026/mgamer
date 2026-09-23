@@ -39,12 +39,12 @@ export const TECH_EXPERIENCES: TechExperience[] = [
   },
   {
     id: 'piso-led',
-    name: 'Piso LED Interactivo',
+    name: 'Piso Neón Interactivo',
     tagline: 'Movimiento, reflejos y pura adrenalina',
     description: 'Experiencia dinámica de movimiento e interacción corporal sobre superficie luminosa inteligente donde el cuerpo es el control.',
     badge: 'INTERACTIVE FLOOR',
     category: 'interactive',
-    features: ['Paneles LED sensibles', 'Juegos grupales de reflejos', 'Diversión activa sin cables'],
+    features: ['Paneles Neón sensibles', 'Juegos grupales de reflejos', 'Diversión activa sin cables'],
   },
   {
     id: 'playstation',
@@ -59,7 +59,7 @@ export const TECH_EXPERIENCES: TechExperience[] = [
     id: 'nintendo-switch',
     name: 'Nintendo Switch',
     tagline: 'Diversión cooperativa y fiesta grupal',
-    description: 'Variedad de juegos dinámicos para disfrutar en grupo, competir amistosamente y compartir carcajadas en simultáneo.',
+    description: 'Variedad de juegos dinámicos para disfrutar en grupo, competir amisotamente y compartir carcajadas en simultáneo.',
     badge: 'PARTY MULTIPLAYER',
     category: 'console',
     features: ['Controles Joy-Con compartidos', 'Títulos de fiesta en grupo', 'Ideal para chicos y jóvenes'],
@@ -71,7 +71,7 @@ export const TECH_EXPERIENCES: TechExperience[] = [
     description: 'Espacio dedicado a los nostálgicos y gamers de siempre: arcades, clásicos de 8, 16 y 32 bits para que los grandes también jueguen.',
     badge: 'ARCADE RETRO',
     category: 'retro',
-    features: ['Clásicos de los 80s y 90s', 'Controles arcade tradicionales', 'Para papás, tíos y adultos'],
+    features: ['Clásicos de los 80s and 90s', 'Controles arcade tradicionales', 'Para papás, tíos y adultos'],
   },
   {
     id: 'comida',
@@ -91,7 +91,7 @@ export const GOOGLE_REVIEWS = [
     rating: 5,
     time: 'Hace 2 semanas',
     content:
-      '¡Increíble lugar! Festejamos los 10 de mi hijo y fue una locura total. El piso LED y la realidad virtual los tuvieron entretenidísimos las 3 horas sin parar. Los coordinadores unos genios y las pizzas riquísimas. 100% recomendado.',
+      '¡Increíble lugar! Festejamos los 10 de mi hijo y fue una locura total. El piso Neón y la realidad virtual los tuvieron entretenidísimos las 3 horas sin parar. Los coordinadores unos genios y las pizzas riquísimas. 100% recomendado.',
   },
   {
     author: 'Gonzalo Benítez',

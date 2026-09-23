@@ -62,7 +62,7 @@ export const TechExperiencesSection: React.FC = () => {
             ¿QUÉ INCLUYE <span className="neon-text-violet">MGAMER?</span>
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base">
-            Seleccioná cada estación o servicio para conocer los videojuegos, el piso LED y la comida que incluye cada cumpleaños.
+            Seleccioná cada estación o servicio para conocer los videojuegos, el piso Neón y la comida que incluye cada cumpleaños.
           </p>
         </div>
 

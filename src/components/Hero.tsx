@@ -66,16 +66,16 @@ export const Hero: React.FC = () => {
       {/* Hero Content Container - Textos más chicos y limpios */}
       <div className="relative z-20 max-w-4xl mx-auto text-center flex flex-col items-center">
         
-        {/* Título Gamer en tamaño más chico y armónico */}
-        <h1 className="font-gamer text-2xl sm:text-4xl md:text-5xl font-black uppercase tracking-tight text-white mb-4 leading-tight drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
-          <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.6)]">
+        {/* Título Gamer en tamaño gigante e impactante en celular con interlineado ajustado y ultra-compacto */}
+        <h1 className="font-gamer text-4xl sm:text-4xl md:text-5xl font-black uppercase tracking-tight text-white mb-4 leading-[0.95] md:leading-tight drop-shadow-[0_2px_15px_rgba(0,0,0,0.9)] flex flex-col items-center gap-0 sm:block">
+          <span className="text-white block sm:inline drop-shadow-[0_0_15px_rgba(255,255,255,0.6)]">
             VIDEOJUEGOS
           </span>
-          <span className="inline-block text-purple-400 text-lg sm:text-2xl mx-2 font-mono font-light">+</span>
-          <span className="neon-text-violet">
+          <span className="block sm:inline-block text-purple-400 text-xl sm:text-2xl my-0 sm:mx-2 font-mono font-light leading-none">+</span>
+          <span className="neon-text-violet block sm:inline">
             TECNOLOGÍA
           </span>
-          <div className="mt-1 block text-lg sm:text-2xl md:text-3xl neon-text-magenta drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)]">
+          <div className="mt-2.5 block text-xl sm:text-2xl md:text-3xl neon-text-magenta drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] leading-tight">
             = CUMPLES INOLVIDABLES
           </div>
         </h1>

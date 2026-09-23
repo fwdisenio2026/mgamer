@@ -44,8 +44,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectTab }) => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-transparent pointer-events-none transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pointer-events-auto">
         
-        {/* En MOBILE: Logo centrado, transparente apoyado directamente sobre el video */}
-        <div className="md:hidden flex items-center justify-center pt-3 pb-2">
+        {/* En MOBILE: Logo centrado, transparente apoyado directamente sobre el video. Desaparece al scrolear */}
+        <div className={`md:hidden flex items-center justify-center pt-4 pb-2 transition-all duration-500 transform ${
+          scrolled ? '-translate-y-40 opacity-0 pointer-events-none scale-75' : 'translate-y-0 opacity-100 scale-100'
+        }`}>
           <a
             href="#"
             onClick={(e) => {
@@ -60,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectTab }) => {
             <img
               src={gamerLogoPng}
               alt="MGAMER"
-              className="h-16 w-auto object-contain filter drop-shadow-[0_4px_25px_rgba(0,0,0,0.85)] mix-blend-screen"
+              className="h-32 w-auto object-contain filter drop-shadow-[0_4px_30px_rgba(0,0,0,0.9)] mix-blend-screen"
             />
           </a>
         </div>
