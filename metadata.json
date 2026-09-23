@@ -1,0 +1,6 @@
+{
+  "name": "Web Application",
+  "description": "Aplicación web modular desarrollada con React, TypeScript y Vite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

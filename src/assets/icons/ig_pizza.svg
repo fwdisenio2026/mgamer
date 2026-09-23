@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <!-- Outer glowing rings -->
+  <circle cx="50" cy="50" r="46" stroke="#9333ea" stroke-width="2.5" opacity="0.6" />
+  <circle cx="50" cy="50" r="43" fill="#070211" stroke="#c084fc" stroke-width="3" />
+  <circle cx="50" cy="50" r="40" stroke="#f472b6" stroke-width="1" opacity="0.5" />
+  
+  <!-- Cyber diagonal slash highlights -->
+  <path d="M22 28 L35 15" stroke="#ec4899" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+  <path d="M72 78 L85 65" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+
+  <!-- Pizza Slice Body -->
+  <!-- Crust (Arc top) -->
+  <path d="M68 28 C64 24, 48 20, 36 28 C34 29.5, 33 32, 35 34 L37 36 C49 30, 60 32, 69 35 C71 34, 71 31, 68 28 Z" fill="#ec4899" stroke="#f472b6" stroke-width="2.5" />
+  
+  <!-- Pizza cheese triangle with melted drips -->
+  <path d="M37 36 L68 76 C68 76, 60 62, 57 60 C54 58, 52 64, 49 57 C47 52, 45 54, 43 47 C41 42, 38 43, 37 36 Z" fill="#2d0b4d" stroke="#d8b4fe" stroke-width="2.8" stroke-linejoin="round" />
+
+  <!-- Pepperoni / toppings -->
+  <circle cx="48" cy="42" r="4" fill="#f43f5e" stroke="#fda4af" stroke-width="1.8" />
+  <circle cx="54" cy="55" r="4.5" fill="#f43f5e" stroke="#fda4af" stroke-width="1.8" />
+  <circle cx="43" cy="52" r="3.5" fill="#f43f5e" stroke="#fda4af" stroke-width="1.5" />
+  <circle cx="60" cy="67" r="3" fill="#f43f5e" stroke="#fda4af" stroke-width="1.5" />
+
+  <!-- Melting cheese drops -->
+  <path d="M49 57 C49 61, 51 63, 51 65 C50 67, 47 67, 47 64 C47 61, 48 59, 49 57 Z" fill="#d8b4fe" />
+  <path d="M41 46 C41 50, 42 53, 42 55 C41 56, 39 56, 39 54 C39 51, 40 48, 41 46 Z" fill="#d8b4fe" />
+
+  <!-- Sparkle bursts top right -->
+  <path d="M68 20 L73 15" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M75 24 L82 23" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M72 30 L78 33" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round" />
+</svg>
